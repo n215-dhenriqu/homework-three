@@ -1,0 +1,75 @@
+.photo{
+    // background-color: palevioletred;
+    width: 100%;
+    margin-top: -50px;
+    // height: 100px;
+    // height: 500px;
+    // margin: -60px;
+    // background-image: linear-gradient(rgba($site-black, 0.4)
+    // rgba($site-black, 0.4)),
+    // url(../images/tour-01.jpg);
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    
+    // margin-left: 450px;
+    // margin-bottom: 70px;
+
+   .europe{
+       color: white;
+       font-size: 60px;
+       background-color: red;
+       background-image: linear-gradient(rgba($site-black, 0.4)
+    rgba($site-black, 0.4)),
+    url(../images/tour-01.jpg);
+       width: 236px;
+       height: 304px;
+       margin-bottom: 300px;
+       background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: ProximaNova;
+
+   }
+
+   .usa{
+       color: white;
+       font-size: 60px;
+    background-color: red;
+    background-image: linear-gradient(rgba($site-black, 0.4)
+    rgba($site-black, 0.4)),
+    url(../images/tour-02.jpg);
+    width: 236px;
+    height: 304px;
+    margin-bottom: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: ProximaNova;
+    
+   }
+
+   .money{
+       color: white;
+       font-size: 30px;
+    
+   }
+
+   .aus{
+       font-size: 60px;
+       color: white;
+    background-color: red;
+    background-image: linear-gradient(rgba($site-black, 0.4)
+    rgba($site-black, 0.4)),
+    url(../images/tour-03.jpg);
+    width: 236px;
+    height: 304px;
+    margin-bottom: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: ProximaNova;
+    
+   }
+
+}

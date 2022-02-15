@@ -1,0 +1,73 @@
+.banner{
+    // background-color: brown;
+    max-width: $banner-footer-width;
+    height: $banner-height;
+    background-image: linear-gradient(rgba($site-black, 0.4)
+    rgba($site-black, 0.4)),
+     url(../images/hero-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -80px auto 0 auto;
+
+    // .logo{
+    //     width: 92px;
+    //     height: 42px;
+        
+    // }
+    
+    .connect{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+
+    .fly{
+        // background-color: purple;
+        width: 360px;
+        height: 120px;
+        
+        color: white;
+        font-size: 60px;
+        font-family: GillSans;
+        // margin-left: auto;
+        // margin-right: auto;
+       
+    }
+
+    .info{
+        // background-color: blue;
+        width: 416px;
+        height: 46px;
+        // margin-left: auto;
+        // margin-right: auto;
+        font-size: 20px;
+        color: white;
+        font-family: GillSans;
+        
+    }
+
+    .main{
+        text-align:center;
+                position: relative;
+                left: 40px;
+                height: 40.04px;
+                width: 121.62px;
+                
+                padding: 20px;
+                color: white;
+
+                .more{
+                    position: absolute;
+                bottom: 0px;
+                margin-bottom: -40px;
+                margin-left: -60px;
+                background-color: #79ADDC;
+                padding: 10px;
+                }
+    }
+    }
+
+}

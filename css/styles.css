@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  max-width: 980px;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #ffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+nav .logo {
+  color: #ffff;
+  border-color: #ffff;
+  width: 92px;
+  height: 42px;
+}
+nav .links a {
+  color: #ffff;
+  text-decoration: none;
+}
+nav .links span {
+  color: #ffff;
+  margin: 0 20px;
+}
+
+.banner {
+  max-width: 1280px;
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/hero-3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/hero-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -80px auto 0 auto;
+}
+.banner .connect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+.banner .connect .fly {
+  width: 360px;
+  height: 120px;
+  color: white;
+  font-size: 60px;
+  font-family: GillSans;
+}
+.banner .connect .info {
+  width: 416px;
+  height: 46px;
+  font-size: 20px;
+  color: white;
+  font-family: GillSans;
+}
+.banner .connect .main {
+  text-align: center;
+  position: relative;
+  left: 40px;
+  height: 40.04px;
+  width: 121.62px;
+  padding: 20px;
+  color: white;
+}
+.banner .connect .main .more {
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: -40px;
+  margin-left: -60px;
+  background-color: #79ADDC;
+  padding: 10px;
+}
+
+.form-content {
+  margin-top: 300px;
+  max-width: 818px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.form-content .text2 {
+  font-size: 60px;
+}
+.form-content .top-boxes {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-content .top-boxes .long-box2 {
+  width: 818px;
+  height: 192px;
+}
+.form-content .top-boxes .long-box1 {
+  width: 103px;
+}
+.form-content .top-boxes .long-boxs {
+  width: 698px;
+}
+.form-content .top-boxes .long-box {
+  width: 453px;
+}
+.form-content .top-boxes .icon {
+  margin-left: -40px;
+}
+.form-content .top-boxes input {
+  width: 344px;
+  height: 58px;
+  padding-left: 10px;
+  border-style: solid;
+  color: #77addc;
+}
+.form-content .button1 {
+  margin-top: 10px;
+}
+.form-content .but1 {
+  background-color: #79ADDC;
+  height: 60.59px;
+  width: 813px;
+  border-radius: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  font-family: GillSans;
+}
+
+.photo {
+  width: 100%;
+  margin-top: -50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.photo .europe {
+  color: white;
+  font-size: 60px;
+  background-color: red;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour-01.jpg);
+  width: 236px;
+  height: 304px;
+  margin-bottom: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: ProximaNova;
+}
+.photo .usa {
+  color: white;
+  font-size: 60px;
+  background-color: red;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour-02.jpg);
+  width: 236px;
+  height: 304px;
+  margin-bottom: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: ProximaNova;
+}
+.photo .money {
+  color: white;
+  font-size: 30px;
+}
+.photo .aus {
+  font-size: 60px;
+  color: white;
+  background-color: red;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
+  width: 236px;
+  height: 304px;
+  margin-bottom: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: ProximaNova;
+}
+
+footer {
+  background-color: #79ADDC;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: ProximaNova;
+  src: url(fonts/Proxima_Nova_Extra_Condensed_Thin.otf);
+}

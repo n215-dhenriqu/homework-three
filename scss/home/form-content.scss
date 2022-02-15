@@ -1,0 +1,72 @@
+.form-content{
+    margin-top: 300px;
+    max-width: $home-form-width;
+    min-height: 200px;
+    // background-color: aqua;
+    margin: $center;
+
+    .text2{
+        font-size: 60px;
+    }
+
+    .top-boxes{
+        // color: black;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .long-box2{
+            width: 818px;
+            height: 192px;
+        }
+
+        .long-box1{
+            width: 103px;
+
+        }
+
+        .long-boxs{
+            width: 698px;
+        }
+
+        .long-box{
+            width: 453px;
+        }
+        
+        .icon{
+            margin-left: -40px;
+        }
+
+        input{
+            width: 344px;
+            height: 58px;
+            padding-left: 10px;
+            // background-color: $site-blue;
+            border-style: solid;
+            color: $site-blue;
+            
+        }
+
+        
+    }
+
+    .button1{
+        margin-top: 10px;
+    }
+    .but1{
+        background-color:#79ADDC ;
+    height:60.59px ;
+    width: 813px;
+    border-radius: 38px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: GillSans;
+    
+    }
+
+
+}
